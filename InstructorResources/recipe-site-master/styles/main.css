@@ -1,0 +1,58 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.group div, 
+.group aside {
+  display: inline-block;
+  float: left;
+}
+
+.group aside {
+  padding-left: 20px;
+}
+
+.group p {
+  width: 448px;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  margin: 0;
+}
+
+header {
+  background: thistle;
+  padding: 20px 10px;
+}
+
+header h1,
+section{
+  width: 75%;
+  margin: 0 auto;
+}
+
+img {
+  width: 400px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+ul li {
+  margin: 3px 0;
+}
